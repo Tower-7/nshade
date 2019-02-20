@@ -1,0 +1,107 @@
+.banner {
+	position: relative;
+	width: 100%;
+	margin-top: 8vh;
+	height: 70vh;
+	background-image: url(../img/product/banner.jpg);
+	background-size: cover;
+}
+.banner h2 {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #fff;
+	padding: 20px;
+	font-size: 2.5vw;
+}
+.infor {
+	text-align: center;
+    width: 80%;
+    padding: 8vh 10%;
+    line-height: 2.5vw;
+    color: #666;
+    font-weight: lighter;
+    background: #eee;
+}
+.infor h2 {
+	margin-bottom: 3vh;
+}
+.product>div {
+	width: 100%;
+}
+.product>div:nth-child(2n) {
+	background-color: #eee;
+}
+.product>div:nth-child(2n) .text {
+	text-align: left;
+}
+.product {
+	font-size: 0;
+}
+.product .text {
+	width: 50%;
+    padding-left: 6%;
+    padding-right: 4%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+	font-size: 1.3vw;
+}
+.product .text h2 {
+	margin: 50px auto;
+	font-size: 3vw;
+}
+.product .text p {
+	line-height: 5vh;
+}
+.product .text .detail a {
+	display: inline-block;
+	margin-top: 3vh;
+	padding: 1vh 3vw;
+	font-size: 2vw;
+	border:1px solid #555;
+	font-weight:lighter;
+	text-align:center;
+	cursor:pointer;
+	color: #666;
+}
+.product .text .detail a:hover {
+	color: #888;
+}
+.product .pic {
+	width: 40%;
+	height: 65vh;
+	display: inline-block;
+}
+.product_1 .pic {
+	background-image: url('../img/product/product1_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.product_2 .pic {
+	background-image: url('../img/product/product2_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.product_3 .pic {
+	background-image: url('../img/product/product3_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.product_4 .pic {
+	background-image: url('../img/product/product4_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.product_5 .pic {
+	background-image: url('../img/product/product5_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.product_6 .pic {
+	background-image: url('../img/product/product6_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}

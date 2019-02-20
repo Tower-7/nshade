@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
+    <link rel="stylesheet" href="/common/css/init.css">
+    <link rel="stylesheet" href="/pc/css/common.css">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    {% include "./header.njk" %}
+
+    {% block body %}
+    {% endblock %}
+    
+    {% include "./footer.njk" %}
+
+
+    {% block content %}
+    {% endblock %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="pc/js/common.js"></script>
+    {% block script %}
+    {% endblock %}
+</body>
+
+</html>

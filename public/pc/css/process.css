@@ -1,0 +1,84 @@
+.banner {
+	position: relative;
+	width: 100%;
+	margin-top: 8vh;
+	height: 70vh;
+	background-image: url(../img/process/banner.jpg);
+	background-size: cover;
+}
+.banner h2 {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #fff;
+	padding: 20px;
+	font-size: 2.5vw;
+}
+.infor {
+	text-align: center;
+    width: 80%;
+    padding: 8vh 10%;
+    line-height: 2.5vw;
+    color: #666;
+    font-weight: lighter;
+    background: #eee;
+}
+.infor h2 {
+	margin-bottom: 3vh;
+}
+.process>div {
+	width: 100%;
+}
+.process>div:nth-child(2n) {
+	background-color: #eee;
+}
+.process>div:nth-child(2n) .text {
+	text-align: left;
+}
+.process {
+	font-size: 0;
+}
+.process .text {
+	width: 50%;
+    padding-left: 6%;
+    padding-right: 4%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+	font-size: 1.3vw;
+}
+.process .text h2 {
+	margin: 50px auto;
+	font-size: 3vw;
+}
+.process .text p {
+	line-height: 5vh;
+}
+.process .pic {
+	width: 40%;
+	height: 65vh;
+	display: inline-block;
+}
+.process_1 .pic {
+	background-image: url('../img/process/process_1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.process_2 .pic {
+	background-image: url('../img/process/process_2.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.process_3 .pic {
+	background-image: url('../img/process/process_3.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.process_4 .pic {
+	background-image: url('../img/process/process_4.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+

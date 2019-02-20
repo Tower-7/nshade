@@ -1,0 +1,103 @@
+.detail {
+	margin-top: 12vh;
+	width: calc(100% - 10%);
+	padding: 5vh 5%;
+	margin-bottom: 30vh;
+}
+.detail ul {
+	font-size: 0;
+}
+.detail li {
+	display: inline-block;
+	width: calc(100% / 3 - 4vw);
+	padding: 2vw;
+	font-size: 1.3vw;
+	line-height: 4vh;
+}
+.detail li .pic {
+	width: 100%;
+	height: calc(90vw / 3 - 4vw);
+}
+.detail li .pic1 {
+	background-image: url('../img/product/product1_1.jpg');
+}
+.detail li .pic2 {
+	background-image: url('../img/product/product1_2.jpg');
+}
+.detail li .pic3 {
+	background-image: url('../img/product/product1_3.jpg');
+}
+.detail li .pic4 {
+	background-image: url('../img/product/product1_4.jpg');
+}
+.detail li .pic5 {
+	background-image: url('../img/product/product2_1.jpg');
+}
+.detail li .pic6 {
+	background-image: url('../img/product/product2_2.jpg');
+}
+.detail li .pic7 {
+	background-image: url('../img/product/product2_3.jpg');
+}
+.detail li .pic8 {
+	background-image: url('../img/product/product2_4.jpg');
+}
+.detail li .pic9 {
+	background-image: url('../img/product/product2_5.jpg');
+}
+.detail li .pic10 {
+	background-image: url('../img/product/product3_1.jpg');
+}
+.detail li .pic11 {
+	background-image: url('../img/product/product3_2.jpg');
+}
+.detail li .pic12 {
+	background-image: url('../img/product/product3_3.jpg');
+}
+.detail li .pic13 {
+	background-image: url('../img/product/product3_4.jpg');
+}
+.detail li .pic14 {
+	background-image: url('../img/product/product4_1.jpg');
+}
+.detail li .pic15 {
+	background-image: url('../img/product/product4_2.jpg');
+}
+.detail li .pic16 {
+	background-image: url('../img/product/product4_3.jpg');
+}
+.detail li .pic17 {
+	background-image: url('../img/product/product4_4.jpg');
+}
+.detail li .pic18 {
+	background-image: url('../img/product/product5_1.jpg');
+}
+.detail li .pic19 {
+	background-image: url('../img/product/product5_2.jpg');
+}
+.detail li .pic20 {
+	background-image: url('../img/product/product6_1.jpg');
+}
+.detail li .pic21 {
+	background-image: url('../img/product/product6_2.jpg');
+}
+.detail li .pic22 {
+	background-image: url('../img/product/product6_3.jpg');
+}
+.detail li .content {
+	margin-top: 3vh;
+}
+.detail li .content p{
+	margin: 2vh 0;
+}
+.detail li .content .connect a {
+	display: inline-block;
+	padding: 1vh 3vw;
+	border: 1px solid #000;
+	color: #666;
+}
+.detail li .content .connect a:hover {
+	color: #888;
+	cursor: pointer;
+}
+

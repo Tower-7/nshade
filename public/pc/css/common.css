@@ -1,0 +1,42 @@
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 8vh;
+	z-index: 999;
+	background-color: #000;
+}
+.nav .logo {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20vw;
+	padding-left: 2vw;
+}
+.nav .logo img {
+	height: 3.5vh;
+}
+.nav .menu {
+	position: absolute;
+	right: 5vw;
+	top: 50%;
+	font-size: 1.2vw;
+	transform: translateY(-50%);
+}
+.nav .menu li {
+	float: left;
+	padding: 0 1vw;
+	height: 100%;
+}
+.nav .menu li a {
+	color: #ddd;
+    font-size: 1vw;
+}
+.nav .menu li a:hover {
+	color: #fff;
+}
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #1a1a1a;
+}

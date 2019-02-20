@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理页面</title>
+	<link rel="stylesheet" href="../common/css/init.css">
+	<link rel="stylesheet" href="../admin/css/home.css">
+</head>
+<body>
+	<div class="sidebar">
+		<ul>
+			<li>总览</li>
+			<li class="navBanner">banner</li>
+			<li class="navProject">project</li>
+			<li class="navRead">read</li>
+			<li class="navNews">news</li>
+		</ul>
+	</div>
+	<div class="main">
+		<section class="banner">
+			<h3>E-mail列表</h3>
+			<table>
+				<thead>
+					<tr>
+						<th class="thCell"><input type="checkbox"></th>
+						<th class="thTitle">FirstName</th>
+						<th class="thTitle">LastName</th>
+						<th class="thPic">E-mail</th>
+						<th class="thPic">Phone</th>
+						<th class="thPic">Questions</th>
+						<th class="thCreateTime">Sent-Time</th>
+						<th class="thState">From</th>
+						<th class="thSetting">Set</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% if Users %}
+					{% for user in Users %}
+						<tr>
+							<th class="trCell"><input type="checkbox"></th>
+							<td class="trTitle">{{ user.firstName }}</td>
+							<td class="trTitle">{{ user.lastName }}</td>
+							<td class="trPic">{{ user.email }}</td>
+							<td class="trPic">{{ user.phone }}</td>
+							<td class="trPic">{{ user.question }}</td>
+							<td class="trCreateTime">{{ moment(user.meta.updateAt ).format('MMMM Do YYYY HH:mm') }}</td>
+							<td class="trState">{{ user.ip }}</td>
+							<td class="trDel" date-id='{{ user._id }}'>删除</div>
+							
+							</td>
+						</tr>
+						{% endfor %}
+					{% endif %}
+				</tbody>	
+			</table>
+								
+		</section>
+	</div>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../admin/js/home.js"></script>
+</html>

@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+}
+.sidebar {
+	float: left;
+	width: 100px;
+	height: 800px;
+	background-color: #19233c;
+}
+.sidebar li {
+	color: #fff;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	cursor: pointer;
+}
+.main {
+	float: right;
+	width: calc(100% - 100px);
+	height: 800px;
+}
+
+.main .banner {
+	margin: 100px;
+	display: block;
+}
+.main table {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+	min-width: 1000px;
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+}
+.main table th {
+	width: 120px;
+}
+.main table .thPic {
+	width: 200px;
+}
+.main table .trSort input {
+	width: 20px;
+}
+.main table th,.main table td {
+	position: relative;
+	border: 1px solid #aaa;
+	padding:6px 15px 6px 6px;
+}
+.main .banner tbody tr img{
+	width: 80%;
+}
+.main .banner .trDel {
+	cursor: pointer;
+	line-height: 100%;
+}
+
+.main .banner .trDel:hover {
+	background-color: #bb2f2f;
+	color: #fff;
+}
